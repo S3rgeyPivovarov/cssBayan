@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+
+.container{
+    background-color: aqua;
+    width: 90%;
+    margin: 100px auto;
+    display: block;
+    flex-direction: column;
+    padding: 20px
+}
+
+.container:hover{
+    background-color: black;
+}
+
+.box{
+    background-color: blueviolet;
+    height: 80px;
+    padding: 25px;
+    border: blue solid 3px;
+    transition: 1s;
+    overflow: hidden
+}
+
+.box:hover{
+    background-color: brown;
+    height: 505px;
+}
+
+.hoverOffHidden{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: 400px;
+    background-size: 100% auto
+    }
+
+.cross{
+    height: 1rem;
+    margin-left: 99rem;
+    transform: rotate(45deg);
+}
+
+.box:hover .cross{
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+.box.open{
+    color: yellow;
+
+}
+
